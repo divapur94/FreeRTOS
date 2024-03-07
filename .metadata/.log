@@ -1,0 +1,27 @@
+!SESSION 2022-11-22 19:19:07.985 -----------------------------------------------
+eclipse.buildId=Version 1.10.1
+java.version=11.0.14.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:\Users\divan\OneDrive\Dokumente\FreeRTOS\RTOS_workspace
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-11-22 19:19:21.437
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-11-22 19:19:21.497
+!MESSAGE Log4j initialized with config file C:\Users\divan\OneDrive\Dokumente\FreeRTOS\RTOS_workspace\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-11-22 19:19:29.106
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-11-22 19:24:32.134
+!MESSAGE Indexed '000HelloWorldRTOS' (3 sources, 53 headers) in 0.95 sec: 1,949 declarations; 2,811 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0.042%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-11-22 19:43:05.819
+!MESSAGE Indexed '000HelloWorld' (28 sources, 91 headers) in 2.96 sec: 7,662 declarations; 47,040 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0037%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-11-22 19:48:47.738
+!MESSAGE Indexed '000Hellow' (3 sources, 53 headers) in 0.171 sec: 1,949 declarations; 2,811 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0.042%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-11-22 19:51:37.465
+!MESSAGE Indexed '001HelloWorld' (22 sources, 82 headers) in 1.8 sec: 5,495 declarations; 30,826 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0055%)

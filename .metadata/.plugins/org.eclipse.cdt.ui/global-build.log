@@ -1,0 +1,70 @@
+20:46:43 **** Incremental Build of configuration Debug for project 001HelloWorld ****
+make -j12 all 
+arm-none-eabi-gcc "../ThirdParty/FreeRTOS/portable/MemMang/heap_4.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F746xx -c -I../Core/Inc -I"C:/Users/divan/OneDrive/Dokumente/FreeRTOS/RTOS_workspace/001HelloWorld/ThirdParty/FreeRTOS/include" -I"C:/Users/divan/OneDrive/Dokumente/FreeRTOS/RTOS_workspace/001HelloWorld/ThirdParty/FreeRTOS/portable/GCC/ARM_CM7/r0p1" -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"ThirdParty/FreeRTOS/portable/MemMang/heap_4.d" -MT"ThirdParty/FreeRTOS/portable/MemMang/heap_4.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "ThirdParty/FreeRTOS/portable/MemMang/heap_4.o"
+arm-none-eabi-gcc "../ThirdParty/FreeRTOS/portable/GCC/ARM_CM7/r0p1/port.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F746xx -c -I../Core/Inc -I"C:/Users/divan/OneDrive/Dokumente/FreeRTOS/RTOS_workspace/001HelloWorld/ThirdParty/FreeRTOS/include" -I"C:/Users/divan/OneDrive/Dokumente/FreeRTOS/RTOS_workspace/001HelloWorld/ThirdParty/FreeRTOS/portable/GCC/ARM_CM7/r0p1" -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"ThirdParty/FreeRTOS/portable/GCC/ARM_CM7/r0p1/port.d" -MT"ThirdParty/FreeRTOS/portable/GCC/ARM_CM7/r0p1/port.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "ThirdParty/FreeRTOS/portable/GCC/ARM_CM7/r0p1/port.o"
+arm-none-eabi-gcc "../ThirdParty/FreeRTOS/croutine.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F746xx -c -I../Core/Inc -I"C:/Users/divan/OneDrive/Dokumente/FreeRTOS/RTOS_workspace/001HelloWorld/ThirdParty/FreeRTOS/include" -I"C:/Users/divan/OneDrive/Dokumente/FreeRTOS/RTOS_workspace/001HelloWorld/ThirdParty/FreeRTOS/portable/GCC/ARM_CM7/r0p1" -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"ThirdParty/FreeRTOS/croutine.d" -MT"ThirdParty/FreeRTOS/croutine.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "ThirdParty/FreeRTOS/croutine.o"
+arm-none-eabi-gcc "../ThirdParty/FreeRTOS/event_groups.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F746xx -c -I../Core/Inc -I"C:/Users/divan/OneDrive/Dokumente/FreeRTOS/RTOS_workspace/001HelloWorld/ThirdParty/FreeRTOS/include" -I"C:/Users/divan/OneDrive/Dokumente/FreeRTOS/RTOS_workspace/001HelloWorld/ThirdParty/FreeRTOS/portable/GCC/ARM_CM7/r0p1" -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"ThirdParty/FreeRTOS/event_groups.d" -MT"ThirdParty/FreeRTOS/event_groups.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "ThirdParty/FreeRTOS/event_groups.o"
+arm-none-eabi-gcc "../ThirdParty/FreeRTOS/list.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F746xx -c -I../Core/Inc -I"C:/Users/divan/OneDrive/Dokumente/FreeRTOS/RTOS_workspace/001HelloWorld/ThirdParty/FreeRTOS/include" -I"C:/Users/divan/OneDrive/Dokumente/FreeRTOS/RTOS_workspace/001HelloWorld/ThirdParty/FreeRTOS/portable/GCC/ARM_CM7/r0p1" -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"ThirdParty/FreeRTOS/list.d" -MT"ThirdParty/FreeRTOS/list.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "ThirdParty/FreeRTOS/list.o"
+arm-none-eabi-gcc "../ThirdParty/FreeRTOS/queue.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F746xx -c -I../Core/Inc -I"C:/Users/divan/OneDrive/Dokumente/FreeRTOS/RTOS_workspace/001HelloWorld/ThirdParty/FreeRTOS/include" -I"C:/Users/divan/OneDrive/Dokumente/FreeRTOS/RTOS_workspace/001HelloWorld/ThirdParty/FreeRTOS/portable/GCC/ARM_CM7/r0p1" -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"ThirdParty/FreeRTOS/queue.d" -MT"ThirdParty/FreeRTOS/queue.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "ThirdParty/FreeRTOS/queue.o"
+arm-none-eabi-gcc "../ThirdParty/FreeRTOS/stream_buffer.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F746xx -c -I../Core/Inc -I"C:/Users/divan/OneDrive/Dokumente/FreeRTOS/RTOS_workspace/001HelloWorld/ThirdParty/FreeRTOS/include" -I"C:/Users/divan/OneDrive/Dokumente/FreeRTOS/RTOS_workspace/001HelloWorld/ThirdParty/FreeRTOS/portable/GCC/ARM_CM7/r0p1" -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"ThirdParty/FreeRTOS/stream_buffer.d" -MT"ThirdParty/FreeRTOS/stream_buffer.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "ThirdParty/FreeRTOS/stream_buffer.o"
+arm-none-eabi-gcc "../ThirdParty/FreeRTOS/tasks.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F746xx -c -I../Core/Inc -I"C:/Users/divan/OneDrive/Dokumente/FreeRTOS/RTOS_workspace/001HelloWorld/ThirdParty/FreeRTOS/include" -I"C:/Users/divan/OneDrive/Dokumente/FreeRTOS/RTOS_workspace/001HelloWorld/ThirdParty/FreeRTOS/portable/GCC/ARM_CM7/r0p1" -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"ThirdParty/FreeRTOS/tasks.d" -MT"ThirdParty/FreeRTOS/tasks.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "ThirdParty/FreeRTOS/tasks.o"
+arm-none-eabi-gcc "../ThirdParty/FreeRTOS/timers.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F746xx -c -I../Core/Inc -I"C:/Users/divan/OneDrive/Dokumente/FreeRTOS/RTOS_workspace/001HelloWorld/ThirdParty/FreeRTOS/include" -I"C:/Users/divan/OneDrive/Dokumente/FreeRTOS/RTOS_workspace/001HelloWorld/ThirdParty/FreeRTOS/portable/GCC/ARM_CM7/r0p1" -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"ThirdParty/FreeRTOS/timers.d" -MT"ThirdParty/FreeRTOS/timers.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "ThirdParty/FreeRTOS/timers.o"
+arm-none-eabi-gcc "../Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma_ex.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F746xx -c -I../Core/Inc -I"C:/Users/divan/OneDrive/Dokumente/FreeRTOS/RTOS_workspace/001HelloWorld/ThirdParty/FreeRTOS/include" -I"C:/Users/divan/OneDrive/Dokumente/FreeRTOS/RTOS_workspace/001HelloWorld/ThirdParty/FreeRTOS/portable/GCC/ARM_CM7/r0p1" -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma_ex.d" -MT"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma_ex.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_exti.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F746xx -c -I../Core/Inc -I"C:/Users/divan/OneDrive/Dokumente/FreeRTOS/RTOS_workspace/001HelloWorld/ThirdParty/FreeRTOS/include" -I"C:/Users/divan/OneDrive/Dokumente/FreeRTOS/RTOS_workspace/001HelloWorld/ThirdParty/FreeRTOS/portable/GCC/ARM_CM7/r0p1" -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_exti.d" -MT"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_exti.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_exti.o"
+arm-none-eabi-gcc "../Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F746xx -c -I../Core/Inc -I"C:/Users/divan/OneDrive/Dokumente/FreeRTOS/RTOS_workspace/001HelloWorld/ThirdParty/FreeRTOS/include" -I"C:/Users/divan/OneDrive/Dokumente/FreeRTOS/RTOS_workspace/001HelloWorld/ThirdParty/FreeRTOS/portable/GCC/ARM_CM7/r0p1" -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.d" -MT"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.o"
+In file included from ../ThirdParty/FreeRTOS/portable/GCC/ARM_CM7/r0p1/port.c:32:
+C:/Users/divan/OneDrive/Dokumente/FreeRTOS/RTOS_workspace/001HelloWorld/ThirdParty/FreeRTOS/include/FreeRTOS.h:57:10: fatal error: FreeRTOSConfig.h: No such file or directory
+   57 | #include "FreeRTOSConfig.h"
+      |          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+In file included from ../ThirdParty/FreeRTOS/portable/MemMang/heap_4.c:42:
+C:/Users/divan/OneDrive/Dokumente/FreeRTOS/RTOS_workspace/001HelloWorld/ThirdParty/FreeRTOS/include/FreeRTOS.h:57:10: fatal error: FreeRTOSConfig.h: No such file or directory
+   57 | #include "FreeRTOSConfig.h"
+      |          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+In file included from ../ThirdParty/FreeRTOS/croutine.c:27:
+C:/Users/divan/OneDrive/Dokumente/FreeRTOS/RTOS_workspace/001HelloWorld/ThirdParty/FreeRTOS/include/FreeRTOS.h:57:10: fatal error: FreeRTOSConfig.h: No such file or directory
+   57 | #include "FreeRTOSConfig.h"
+      |          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [ThirdParty/FreeRTOS/portable/GCC/ARM_CM7/r0p1/subdir.mk:19: ThirdParty/FreeRTOS/portable/GCC/ARM_CM7/r0p1/port.o] Error 1
+make: *** Waiting for unfinished jobs....
+make: *** [ThirdParty/FreeRTOS/portable/MemMang/subdir.mk:19: ThirdParty/FreeRTOS/portable/MemMang/heap_4.o] Error 1
+make: *** [ThirdParty/FreeRTOS/subdir.mk:37: ThirdParty/FreeRTOS/croutine.o] Error 1
+In file included from ../ThirdParty/FreeRTOS/list.c:35:
+C:/Users/divan/OneDrive/Dokumente/FreeRTOS/RTOS_workspace/001HelloWorld/ThirdParty/FreeRTOS/include/FreeRTOS.h:57:10: fatal error: FreeRTOSConfig.h: No such file or directory
+   57 | #include "FreeRTOSConfig.h"
+      |          ^~~~~~~~~~~~~~~~~~
+In file included from ../ThirdParty/FreeRTOS/event_groups.c:36:
+C:/Users/divan/OneDrive/Dokumente/FreeRTOS/RTOS_workspace/001HelloWorld/ThirdParty/FreeRTOS/include/FreeRTOS.h:57:10: fatal error: FreeRTOSConfig.h: No such file or directory
+   57 | #include "FreeRTOSConfig.h"
+      |          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+compilation terminated.
+make: *** [ThirdParty/FreeRTOS/subdir.mk:37: ThirdParty/FreeRTOS/list.o] Error 1
+make: *** [ThirdParty/FreeRTOS/subdir.mk:37: ThirdParty/FreeRTOS/event_groups.o] Error 1
+In file included from ../ThirdParty/FreeRTOS/tasks.c:37:
+C:/Users/divan/OneDrive/Dokumente/FreeRTOS/RTOS_workspace/001HelloWorld/ThirdParty/FreeRTOS/include/FreeRTOS.h:57:10: fatal error: FreeRTOSConfig.h: No such file or directory
+   57 | #include "FreeRTOSConfig.h"
+      |          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+In file included from ../ThirdParty/FreeRTOS/queue.c:35:
+C:/Users/divan/OneDrive/Dokumente/FreeRTOS/RTOS_workspace/001HelloWorld/ThirdParty/FreeRTOS/include/FreeRTOS.h:57:10: fatal error: FreeRTOSConfig.h: No such file or directory
+   57 | #include "FreeRTOSConfig.h"
+      |          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+In file included from ../ThirdParty/FreeRTOS/stream_buffer.c:37:
+C:/Users/divan/OneDrive/Dokumente/FreeRTOS/RTOS_workspace/001HelloWorld/ThirdParty/FreeRTOS/include/FreeRTOS.h:57:10: fatal error: FreeRTOSConfig.h: No such file or directory
+   57 | #include "FreeRTOSConfig.h"
+      |          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [ThirdParty/FreeRTOS/subdir.mk:37: ThirdParty/FreeRTOS/tasks.o] Error 1
+In file included from ../ThirdParty/FreeRTOS/timers.c:35:
+C:/Users/divan/OneDrive/Dokumente/FreeRTOS/RTOS_workspace/001HelloWorld/ThirdParty/FreeRTOS/include/FreeRTOS.h:57:10: fatal error: FreeRTOSConfig.h: No such file or directory
+   57 | #include "FreeRTOSConfig.h"
+      |          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [ThirdParty/FreeRTOS/subdir.mk:37: ThirdParty/FreeRTOS/queue.o] Error 1
+make: *** [ThirdParty/FreeRTOS/subdir.mk:37: ThirdParty/FreeRTOS/timers.o] Error 1
+make: *** [ThirdParty/FreeRTOS/subdir.mk:37: ThirdParty/FreeRTOS/stream_buffer.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
